@@ -2,6 +2,8 @@
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](https://github.com/pedroalbanese/lshsum/blob/master/LICENSE.md) 
 [![GoDoc](https://godoc.org/github.com/pedroalbanese/whirlpoolsum?status.png)](http://godoc.org/github.com/pedroalbanese/lshsum)
 [![Go Report Card](https://goreportcard.com/badge/github.com/pedroalbanese/lshsum)](https://goreportcard.com/report/github.com/pedroalbanese/lshsum)
+[![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/pedroalbanese/lshsum)](https://golang.org)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/pedroalbanese/lshsum)](https://github.com/pedroalbanese/lshsum/releases)
 ## lshsum Parallel Implementation written in Go
 <PRE>
 Usage of lshsum:
