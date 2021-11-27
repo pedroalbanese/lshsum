@@ -22,7 +22,7 @@ lshsum [-v] [-b N] [-c &lt;hash.ext&gt;] [-r] -t &lt;file.ext&gt;
 ### LSH-256 Hash-based Message Autentication Code Utility:
 <PRE>
 Usage of lshmac:
-lshmac [-k <secret>] -f <file.ext>
+lshmac [-k &lt;secret&gt;] -f &lt;file.ext&gt;
   -f string
         Target file. ('-' for STDIN)
   -k string
