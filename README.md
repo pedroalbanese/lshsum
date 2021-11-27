@@ -4,7 +4,7 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/pedroalbanese/lshsum)](https://goreportcard.com/report/github.com/pedroalbanese/lshsum)
 [![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/pedroalbanese/lshsum)](https://golang.org)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/pedroalbanese/lshsum)](https://github.com/pedroalbanese/lshsum/releases)
-### TTAK.KO-12.0276 LSH Recursive Hasher written in Go
+### TTAK.KO-12.0276 LSH Recursive Hasher written in Go:
 <PRE>
 Usage of lshsum:
 lshsum [-v] [-b N] [-c &lt;hash.ext&gt;] [-r] -t &lt;file.ext&gt;
@@ -19,6 +19,15 @@ lshsum [-v] [-b N] [-c &lt;hash.ext&gt;] [-r] -t &lt;file.ext&gt;
   -v    Verbose mode. (The exit code is always 0 in this mode)
   </PRE>
 
+### LSH-256 Hash-based Message Autentication Code Utility:
+<PRE>
+Usage of lshmac:
+lshmac [-k <secret>] -f <file.ext>
+  -f string
+        Target file. ('-' for STDIN)
+  -k string
+        Secret key.
+</PRE>
 ## Examples:
 ### Generate hashsum list:
 ```sh
