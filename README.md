@@ -35,4 +35,4 @@ $ ./lshsum [-v] -c hash.txt
 ## License
 
 This project is licensed under the ISC License.
-##### Copyright (c) 2020-2021 Pedro Albanese - ALBANESE Lab.
+##### Copyright (c) 2020-2021 Pedro Albanese - ALBANESE Research Lab.
