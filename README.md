@@ -7,17 +7,14 @@
 ### TTAK.KO-12.0276 LSH Recursive Hasher written in Go:
 <PRE>
 Usage of lshsum:
-lshsum [-v] [-b N] [-c &lt;hash.ext&gt;] [-r] -t &lt;file.ext&gt;
-
+lshsum [-v] [-b N] [-c &lt;hash.ext&gt;] [-r] &lt;file.ext&gt;
   -b int
         Bits: 224, 256, 384 and 512. (default 256)
   -c string
         Check hashsum file.
   -r    Process directories recursively.
-  -t string
-        Target file/wildcard to generate hashsum list.
   -v    Verbose mode. (The exit code is always 0 in this mode)
-  </PRE>
+</PRE>
 
 ### LSH-256 Hash-based Message Autentication Code Utility:
 <PRE>
@@ -31,7 +28,7 @@ lshmac [-k &lt;secret&gt;] -f &lt;file.ext&gt;
 ## Examples:
 ### Generate hashsum list:
 ```sh
-$ ./lshsum [-r] -t "*.*" > hash.txt
+$ ./lshsum [-r] "*.*" > hash.txt
 ```
 #### Always works in binary mode. 
 
