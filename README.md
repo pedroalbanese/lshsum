@@ -25,7 +25,7 @@ lshmac [-k &lt;secret&gt;] -f &lt;file.ext&gt;
   -k string
         Secret key.
 </PRE>
-## Examples:
+## Examples
 ### Generate hashsum list:
 ```sh
 $ ./lshsum [-r] "*.*" > hash.txt
