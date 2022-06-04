@@ -33,7 +33,7 @@ $ ./lshsum [-r] "*.*" > hash.txt
 
 ### Check hashsum file:
 ```sh
-$ ./lshsum [-v] -c hash.txt
+$ ./lshsum -c hash.txt
 $ echo $?
 ```
 
